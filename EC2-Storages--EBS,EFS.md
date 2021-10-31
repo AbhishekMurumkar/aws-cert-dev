@@ -36,6 +36,9 @@ We can control this feature, this selection for any volume.
 | st1 | Low Cost - Throughput optimized HDD | <ul><li>cannot be boot volume</li><li>frequently accessed, throughput-intensive workloads</li><li>Best for **Big data**, **Data warehouses**, **log processing**</li></ul>|
 | sc1 | Lowest Cost - Cold HDD| <ul><li>cannot be boot volume</li><li>less frequently accessed workloads</li></ul> |
 
+More: 
+1. On [Types](#https://aws.amazon.com/ebs/volume-types/)
+2. On [IOPS  Suggestions and usecases](#https://aws.amazon.com/ebs/features/)
 ### Exam Topic : 
 1. provisioned IOPS
    1. critical business application with sustained IOPS performance
@@ -105,7 +108,7 @@ We can control this feature, this selection for any volume.
 4. For this volume, you must use file system which is **clustered aware** file system 
 5. Use cases :
    1. achieve higher application availiability in clustered linux applications (ex: teradata)
-   2. applications must manage concurrent write operations
+   2. applications must manage concurrent write operations <br>
 !["multi-attach"](2021-10-26-06-41-01.png)
 
 ## [EC2 Instance Store - io1/io2](#ec2-instance-store---io1io2):
